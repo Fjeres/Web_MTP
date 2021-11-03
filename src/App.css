@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+
+
+/* Задание 1 */
+.conteiner {
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.div2 {
+    flex-basis: 100%;
+    height: 0;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.button_min {
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #777070;
+
+    border: 2px ;
+    height: 50px;
+    width: 50px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button_min:hover {
+    background-color: #de6c04;
+
 }
 
-.App-link {
-  color: #61dafb;
+.button_med {
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #777070;
+
+    border: 2px;
+    height: 150px;
+    width: 50px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button_med:hover {
+    background-color: #de6c04;
+    color: white;
 }
+
+.button_max {
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #777070;
+    border: 2px ;
+    height: 50px;
+    width: 220px;
+
+}
+
+.button_max:hover {
+    background-color: #de6c04;
+    color: white;
+}
+.button_med_ {
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #777070;
+    border: 2px;
+    height: 50px;
+    width: 150px;
+
+}
+
+.button_med_:hover {
+    background-color: #de6c04;
+    color: white;
+}
+/* Задание 2 */
+.conteiner1 {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.div21 {
+    flex-basis: 100%;
+    height: 0;
+
+}
+
+
+.button_min1 {
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #777070;
+
+    border: 2px ;
+    height: 50px;
+    width: 50px;
+
+}
+
+.button_med1 {
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #777070;
+
+    border: 2px;
+    height: 150px;
+    width: 50px;
+
+}
+
+
+
+.button_max1 {
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #777070;
+    border: 2px ;
+    height: 50px;
+    width: 220px;
+
+}
+
+
+.button_med_1 {
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #777070;
+    border: 2px;
+    height: 50px;
+    width: 150px;
+
+}
+
+
